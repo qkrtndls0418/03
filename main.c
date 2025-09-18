@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int arc, char *argv[]) {
-    //ex 3.
-    char c, d;
+int main(void){
+    int ja,mo;
+        
+     printf("enter bunja:");
+     scanf("%d",&ja);
+     
+     printf("enter bunmo:");
+     scanf("%d",&mo);
     
-    printf("enter a character : ");
-    scanf("%c", &c);
+    printf("The result is %f\n",(float)ja/mo); 
     
-    d = c +1;
-    printf("The next character of %c (%i) is %c (%i).\n",c,c,d,d);
+    system("PAUSE");
     
-    system("PAUSE");}
+    return 0; 
+}
